@@ -13,4 +13,4 @@ USAGE:
 
 `pydir`：where pdf2txt.py is located
 
-Directory containing spaces must be enclosed in ""
+Directory containing spaces must be enclosed in `" "`
