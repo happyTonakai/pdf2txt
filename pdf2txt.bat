@@ -3,14 +3,14 @@ Converting all pdf files in a folder (including subfolders) to txt files.
 Based on pdfminer.six
 indir：root directory of pdf files, traversing all subfolders
 outdir：output directory of txt files
-pydir：where pdf2txt.py is located
-Directory containing spaces must be enclosed in ""
+pydir：location of pdf2txt.py
+Directory containing spaces must be enclosed by ""
 :start
 
 @echo off
 set indir="%USERPROFILE%\Documents\_Reference\Smart Speakers"
-set outdir=%USERPROFILE%\Desktop\test\outnew
-set pydir=%USERPROFILE%\AppData\Local\Programs\Python\Python37\Scripts
+set outdir=%USERPROFILE%\Desktop\test\output
+set pydir=%USERPROFILE%\AppData\Local\Programs\Python\Python38\Scripts
 
 :: Make output directory if not exist
 if not exist %outdir% (
